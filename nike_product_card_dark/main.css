@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'museo_sans_cyrl100';
+    src: url('fonts/museosanscyrl-webfont.woff2') format('woff2'),
+    url('fonts/museosanscyrl-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.main{
+    margin: 0 auto;
+    background-image: url("img/main-bg.png");
+    height: 600px;
+    width: 800px;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+.product{
+    border-radius: 10px;
+    background-color: rgb(17, 26, 40);
+    box-shadow: 0 0 65px 0 rgba(0, 0, 0, 0.82);
+    width: 686px;
+    height: 391px;
+    margin: 109px 51px 100px 63px;
+    position: relative;
+}
+.product__logo{
+    position: absolute;
+    top: 24px;
+    left: 20px;
+}
+.product__pic{
+    float: left;
+    margin: 126px 0 0 35px;
+    width: 50%;
+}
+.product__info{
+    float: right;
+    width: 35.5%;
+    color: #e1e1e1;
+    font: 100 0 'museo_sans_cyrl100', sans-serif;
+}
+.product__title{
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.015em;
+    margin-top: 76px;
+    margin-bottom: 0;
+}
+.product__subtitle{
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 0.015em;
+    margin-top: 4px;
+    margin-bottom: 0;
+    opacity: 0.54;
+}
+.product__rating{
+    margin-top: 19px;
+    margin-bottom: 26px;
+}
+.fa{
+    font-size: 12px;
+    color: #f7bf16;
+    margin-right: 2px;
+}
+.zero{
+    color: #e1e1e1;
+}
+#list1, #list2{
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    background: transparent;
+    padding: 8px 10px 5px 8px;
+    margin-left: 3px;
+    opacity: 0.54;
+    cursor: pointer;
+    outline: none;
+}
+#list2{
+    padding: 8px 14px 5px 8px;
+    margin-left: 3px;
+}
+option{
+    color: inherit;
+    background-color: rgb(17, 26, 40);
+}
+.product__add{
+    display: block;
+    border: 1px solid #e1e1e1;
+    opacity: 0.54;
+    background-color: #4c525a;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    margin-left: 3px;
+    margin-top: 30px;
+    padding: 9px 55px;
+    outline: none;
+}
+.slider{
+    position: absolute;
+    bottom: 15px;
+    left: 176px;
+}
+.fa-star:hover{
+    cursor: pointer;
+    color: #f7bf16;
+}
+.product__add:active{
+    background-color: rgb(17, 26, 40);
+}
+
+
