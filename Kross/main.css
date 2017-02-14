@@ -47,10 +47,34 @@
     text-align: center;
     margin-left: 114px;
 }
+.header__logo:hover{
+    transform: scale(1.1, 1.1);
+}
 /*-МЕИН-*/
 
-/*.product{*/
-    /*background: url("");*/
-/*}*/
+.product{
+    width: 750px;
+    height: 428px;
+    background: url("img/bg.png");
+    margin: 45px auto 0 auto;
+    position: relative;
+}
 
+.product__photo{
+    display: inline-block;
+    float: left;
+    margin: 40px 0 0 44px;
+}
+.product__descrp{
+    background: #ffffff;
+    display: inline-block;
+    float: right;
+    height: inherit;
+}
+.product_descrp-cross{
+    position: absolute;
+    right: 12px;
+    top: 9px;
+
+}
 
