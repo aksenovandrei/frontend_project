@@ -1,0 +1,23 @@
+.parentelement{
+    /*position: relative;*/
+    width: 400px;
+    height: 400px;
+    background-color: #eb7e7f;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.childelement {
+    /*position: absolute;*/
+    width: 200px;
+    height: 200px;
+    background-color: #7a7593;
+    display: inline-block;
+    /*left: 50%;*/
+    /*margin-left: -100px;*/
+    /*top: 50%;*/
+    /*margin-top: -100px;*/
+}
+
+
