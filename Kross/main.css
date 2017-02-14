@@ -1,18 +1,56 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,400');
 
+
+/*-ХЕДЕР-*/
+
 .main{
     background: url("img/bg_t.png");
     width: 876px;
     height: 627px;
     margin: 1% auto;
 }
+.header{
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
 .header__menu-li{
     display: inline-block;
-
+    margin-right: 42px;
 }
-a{
+.header__menu-li a{
     text-decoration: none;
-    font: 400 12px 'Roboto', sans-serif;
+    font: 400 12.14px 'Roboto', sans-serif;
     color: #ffffff;
     opacity: 0.7;
 }
+.header__menu-li:last-of-type{
+    margin-right: 0;
+}
+.header__menu-li a:active{
+    text-decoration: underline;
+    opacity: 1;
+}
+.header__logo{
+    float: left;
+    margin: 26px 0 0 66px;
+}
+.header__menu-btn{
+    float: right;
+    margin: 32px 62px 0 0;
+    opacity: .7;
+}
+.header__menu-btn:active{
+    opacity: 1;
+}
+.header__menu{
+    margin-top: 26px;
+    text-align: center;
+    margin-left: 114px;
+}
+/*-МЕИН-*/
+
+/*.product{*/
+    /*background: url("");*/
+/*}*/
+
+
