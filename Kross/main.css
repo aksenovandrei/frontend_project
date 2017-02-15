@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,400');
 
-
+* {
+    transition: all .2s ease-in;
+}
 /*-ХЕДЕР-*/
 
 .main{
@@ -70,11 +72,106 @@
     display: inline-block;
     float: right;
     height: inherit;
+    width: 248px;
 }
 .product_descrp-cross{
     position: absolute;
     right: 12px;
     top: 9px;
+}
+.product_descrp-mark{
+    font: 400 14px 'Roboto', sans-serif;
+    color: #ffffff;
+    background: #ffa60d;
+    width: 42px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    margin: 43px 0 0 30px;
+}
+.product_descrp-name{
+    font: 400 24px 'Roboto Condensed', sans-serif;
+    margin: 6px 0 0 30px;
+    letter-spacing: 0.01em;
 
 }
-
+.product_descrp-name--blue{
+    color: #5e4fff;
+}
+.raiting__model{
+    font: 800 12px 'Roboto Condensed', sans-serif;
+    margin: 10px 11px 0 31px;
+    letter-spacing: 0.01em;
+    display: inline-block;
+}
+.rating__stars{
+    display: inline-block;
+}
+.fa{
+    font-size: 10px;
+    color: #000;
+    letter-spacing: -0.1em;
+}
+.zero{
+    color: #7f7f7f;
+}
+.fa-star:hover{
+    cursor: pointer;
+    color: #000;
+    display: inline-block;
+}
+.product_descrp-price{
+    font: 300 22px 'Roboto', sans-serif;
+    letter-spacing: 0.01em;
+    margin: 12px 0 0 30px;
+}
+.size{
+    margin-left: 30px;
+}
+.size__title{
+    font: 700 12px 'Roboto', sans-serif;
+    letter-spacing: 0.01em;
+    margin: 20px 0 0 1px;
+}
+.size_number{
+    display: inline-block;
+    font: 400 14.57px 'Roboto Condensed', sans-serif;
+    margin: 4px 21px 0 -6px;
+    box-sizing: border-box;
+}
+.size_number button{
+    background: transparent;
+    border: 1px solid transparent;
+    outline: none;
+}
+.size_number button:hover{
+    border-color: black;
+    outline: black;
+}
+.size_number button:focus{
+    border-color: black;
+}
+.add{
+    font: 700 12px 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.01em;
+    border: 1px solid black;
+    background: transparent;
+    text-transform: uppercase;
+    padding: 8px 24px;
+    margin: 34px 0 3px 30px;
+    outline: none;
+}
+.wishlist{
+    font: 700 12px 'Roboto Condensed', sans-serif;
+    letter-spacing: 0.01em;
+    border: 1px solid black;
+    background: transparent;
+    text-transform: uppercase;
+    padding: 7px 34px;
+    margin: 0 0 5px 30px;
+    outline: none;
+}
+.add:focus, .wishlist:focus{
+    background: #a200b8;
+    color: white;
+}

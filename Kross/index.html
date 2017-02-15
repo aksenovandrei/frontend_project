@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Just Do It</title>
     <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="fonts_awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -25,27 +26,34 @@
                 <img src="img/cross.png" alt="">
             </div>
             <div class="product__descrp">
-                <div class="product_descrp-cross"><a href="#"><img src="img/btn_close.png" alt=""></a></div>
+                <div class="product_descrp-cross">
+                    <a href="#"><img src="img/btn_close.png" alt=""></a>
+                </div>
                 <p class="product_descrp-mark">NEW</p>
-                <h1 class="product_descrp-name">THE RUNNING<br>HAS JUST BEGUN</h1>
+                <h1 class="product_descrp-name">THE <span class="product_descrp-name--blue">RUNNING</span><br>HAS JUST BEGUN</h1>
                 <div class="raiting">
                     <p class="raiting__model">Huarache</p>
-                    <div class="raiting__stara"></div>
+                    <div class="rating__stars">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star zero" aria-hidden="true"></i>
+                    </div>
                 </div>
-                <p class="product_descrp-price">SIZE</p>
+                <p class="product_descrp-price">$ 200</p>
                 <div class="size">
-                    <p class="size__title"></p>
-                    <ul class="size__size">
-                        <li class="size__size-li">7</li>
-                        <li class="size__size-li">8</li>
-                        <li class="size__size-li">9</li>
-                        <li class="size__size-li">10</li>
-                        <li class="size__size-li">11</li>
-                    </ul>
+                    <p class="size__title">Size</p>
+                    <div class="size_number"><button type="button">7</button></div>
+                    <div class="size_number"><button type="button">8</button></div>
+                    <div class="size_number"><button type="button">9</button></div>
+                    <div class="size_number"><button type="button">10</button></div>
+                    <div class="size_number"><button type="button">11</button></div>
                 </div>
+                <button class="add">add to cart</button><br>
+                <button class="wishlist">wishlist</button>
                 <div class="product__preview">
-                    <button class="add">add to cart</button><br>
-                    <button class="wishlist">wishlist</button>
+
                 </div>
 
             </div>
