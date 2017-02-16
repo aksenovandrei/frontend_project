@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700|Roboto:300,400');
 
-* {
-    transition: all .2s ease-in;
-}
+/** {*/
+    /*transition: all .2s ease-in;*/
+/*}*/
 /*-ХЕДЕР-*/
 
 .main{
@@ -34,7 +34,7 @@
 }
 .header__logo{
     float: left;
-    margin: 26px 0 0 66px;
+    margin: 25px 0 0 64px;
 }
 .header__menu-btn{
     float: right;
@@ -147,9 +147,11 @@
 .size_number button:hover{
     border-color: black;
     outline: black;
+    transition: all .2s ease-in;
 }
 .size_number button:focus{
     border-color: black;
+    transition: all .2s ease-in;
 }
 .add{
     font: 700 12px 'Roboto Condensed', sans-serif;
@@ -174,4 +176,36 @@
 .add:focus, .wishlist:focus{
     background: #a200b8;
     color: white;
+    border-color: transparent;
+    transition: all .2s ease-in;
+}
+.add:hover, .wishlist:hover{
+    background: #a200b8;
+    color: white;
+    border-color: transparent;
+    transition: all .2s ease-in;
+}
+.product__preview{
+    position: absolute;
+    left: 174px;
+    bottom: 19px;
+}
+.product__preview img{
+    margin-right: 18px;
+}
+.product__preview img:hover{
+    transform: scale(1.1, 1.1);
+    cursor: pointer;
+}
+.plus{
+    position: absolute;
+    left: 450px;
+    bottom: 67px;
+    background: transparent;
+    outline: none;
+    border: none;
+}
+.plus:hover{
+    transform: scale(1.1, 1.1);
+
 }
