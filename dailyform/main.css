@@ -2,9 +2,8 @@
     box-sizing: border-box;
 }
 html{
-    height: 100vh;
+    height: 100%;
     width: 100%;
-    background-size: 100%;
     background: rgb(255,81,47); /* Old browsers */
     background: -moz-linear-gradient(45deg, rgba(255,81,47,1) 0%, rgba(221,36,118,1) 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(45deg, rgba(255,81,47,1) 0%,rgba(221,36,118,1) 100%); /* Chrome10-25,Safari5.1-6 */
