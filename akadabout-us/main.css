@@ -164,10 +164,10 @@ h3:before{
 /*--footer--*/
 footer{
     background: #7beec7;
-    height: 330px;
+    height: auto;
 }
 .footer{
-    padding: 0 5%;
+    padding: 0 5% 3% 5%;
 }
 .footer__left{
     padding: 0 1.28%;
@@ -178,9 +178,9 @@ footer{
 .form{
     padding: 0 1.28%;
     float: right;
-    width: 525px;
+    width: 40%;
     background: #ffffff;
-    height: 230px;
+    /*height: 230px;*/
     margin-top: 50px;
 }
 .footer__text{
@@ -218,12 +218,14 @@ footer{
     background: #7beec7;
     outline: none;
     border: none;
+    margin: 0 0 20px 5px;
 }
 .form__input{
     margin: 0 0 0 5px;
     height: 44px;
-    width: 70%;
+    width: 60%;
     border: 1px solid #e5e5e5;
+
 }
 ::-webkit-input-placeholder {
     font: 700 12px 'Montserrat', sans-serif;
