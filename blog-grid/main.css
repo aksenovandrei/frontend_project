@@ -56,4 +56,17 @@ p{
     font-weight: 800;
     line-height: 30px;
 }
+.load{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+span{
+    color:  #99a5b0;
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 30px;
+    margin-left: 5px;
+}
 
