@@ -62,7 +62,6 @@ p{
 }
 
 /* About */
-
 .about{
     padding: 160px 0;
 }
@@ -200,11 +199,13 @@ h4{
     background: #fff;
     border: 2px solid #3c3c3c;
 }
-
+.section-contact{
+    padding-bottom: 0;
+}
 /* footer */
 .footer{
     text-align: center;
-    padding-bottom: 63px;
+    padding: 63px 0;
 }
 .footer-logo{
     vertical-align: middle;
