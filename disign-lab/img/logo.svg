@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="69" height="72" viewBox="0 0 69 72">
+  <defs>
+    <style>
+
+      .cls-3 {
+        stroke: #ffffff;
+        stroke-width: 2px;
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke: #f6f7fc;
+        stroke-width: 2px;
+        fill: none;
+      }
+
+      .cls-5 {
+        fill: #ffffff;
+      }
+    </style>
+  </defs>
+  <g id="logosvg">
+    <path d="M63.675,68.857 C63.675,68.857 34.860,13.860 34.860,13.860 C34.860,13.860 6.046,68.857 6.046,68.857 C6.046,68.857 63.675,68.857 63.675,68.857 Z" id="path-1" class="cls-3" fill-rule="evenodd"/>
+    <path d="M34.500,1.000 C53.002,1.000 68.000,15.870 68.000,34.214 C68.000,52.558 53.002,67.429 34.500,67.429 C15.998,67.429 1.000,52.558 1.000,34.214 C1.000,15.870 15.998,1.000 34.500,1.000 Z" id="path-2" class="cls-4" fill-rule="evenodd"/>
+    <path d="M33.860,62.857 C35.850,62.857 37.462,64.456 37.462,66.429 C37.462,68.401 35.850,70.000 33.860,70.000 C31.871,70.000 30.258,68.401 30.258,66.429 C30.258,64.456 31.871,62.857 33.860,62.857 Z" id="path-3" class="cls-5" fill-rule="evenodd"/>
+    <circle id="circle-1" class="cls-5" cx="62" cy="68" r="5"/>
+    <path d="M5.043,62.857 C7.032,62.857 8.645,64.456 8.645,66.429 C8.645,68.401 7.032,70.000 5.043,70.000 C3.054,70.000 1.441,68.401 1.441,66.429 C1.441,64.456 3.054,62.857 5.043,62.857 Z" id="path-4" class="cls-5" fill-rule="evenodd"/>
+  </g>
+</svg>
