@@ -146,10 +146,10 @@ p{
     height: 238px;
     position: relative;
 }
+
 .column--one{
     background: #aeb8cd url("img/one.jpg") 50% no-repeat;
     background-size: cover;
-
 }
 .column--two{
     background: #aeb8cd url("img/two.jpg") 50% no-repeat;
@@ -178,6 +178,9 @@ h4{
     left: 42px;
     color: #ffffff;
     font-size: 34px;
+}
+h4:hover{
+    color: #3c3c3c;
 }
 
 /* contact */
