@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700|Raleway:400,500|Roboto:900');
+
+$main-color: #ffcc00;
+$text-color: #666666;
+@mixin btn {
+  background: none;
+  outline: none;
+  border: none;
+}
+body{
+  margin: 0;
+}
+.header{
+  text-align: center;
+  color: $main-color;
+  padding: 105px 0 18px;
+  max-width: 1170px;
+  margin: 0 auto;
+  &__subtitle{
+    font: 500 18px/1.3 'Raleway', sans-serif;
+    letter-spacing: 0.02em;
+    margin: 0 0 4px;
+    color: #898f8f;
+  }
+  &__title{
+    font: 900 60px/1.1 'Roboto', sans-serif;
+    margin: 0 0 32px;
+  }
+  &__icon {
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 1.2;
+    .ion-bonfire{
+      margin: 0 7px;
+    }
+  }
+  &__icon:before, &__icon:after{
+    content: '';
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 1.2;
+    display: inline-block;
+    border: 1px $main-color;
+    border-style: solid none none none;
+    width: 20%;
+    height: 7px;
+    max-width: 210px;
+    vertical-align: middle;
+  }
+}
+//.relative{
+//  font-size: 0;
+//  .child{
+//    display: inline-block;
+//    width: 33.33%;
+//    position: relative;
+//    img {
+//      width: 100%;
+//    }
+//    div {
+//      text-align: center;
+//      bottom: 0;
+//      font-size: 20px;
+//      position: absolute;
+//      width: 100%;
+//    }
+//  }
+//}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 560px;
+  max-width: 1170px;
+  margin: 0 auto;
+  &__btn {
+    width: 3%;
+    font-size: 40px;
+    color: $main-color;
+    padding: 0 2%;
+    @include btn;
+    &:active {
+      color: lighten($main-color, 15);
+    }
+  }
+  &__pic {
+    max-width: 420px;
+    position: relative;
+    font-size: 0;
+    width: 35.75%;
+    & div {
+      box-sizing: border-box;
+    }
+  }
+  .border {
+    height: 24%;
+    width: 24%;
+    position: absolute;
+    border: 1px $main-color;
+  }
+  .top-left {
+    border-style: solid none none solid;
+  }
+  .top-right {
+    border-style: solid solid none none;
+    right: 0;
+  }
+  .bottom-right {
+    border-style: none solid solid none;
+    right: 0;
+    bottom: 0;
+  }
+  .bottom-left {
+    border-style: none none solid solid;
+    bottom: 0;
+  }
+
+  &__photo {
+    margin: 3.87%;
+    & img {
+      border: 1px solid #ffcc00;
+      width: 100%;
+      max-width: 388px;
+      box-sizing: border-box;
+    }
+  }
+  &__text {
+    width: 36.06837606837607%;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 94px 0 0;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  &__hr {
+    height: 560px;
+    box-sizing: border-box;
+    border: 1px solid $main-color;
+    border-right: none;
+    margin: 0 7%;
+  }
+  &__name{
+    font: 900 36px/.66 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+    color: $text-color;
+    margin: 0 auto;
+    &:after{
+      content: '';
+      display: block;
+      width: 40%;
+      border: 1px solid $main-color;
+      border-bottom: none;
+      margin: 36px auto 0;
+    }
+  }
+  &__job{
+    font: 400 24px/1.5 'Raleway', sans-serif;
+    color: $text-color;
+    margin: 25px 0 0;
+  }
+  .icons{
+    margin: 24px 0 0;
+  }
+  .icons_sm{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #cccccc;
+    text-align: center;
+    padding-top: 4px;
+    box-sizing: border-box;
+    .fa, .ion-social-googleplus-outline{
+      font-size: 14px;
+      color: #cccccc;
+    }
+  }
+  &__description{
+    font: 500 14px/1.75 'Raleway', sans-serif;
+    color: #333333;
+    text-align: center;
+    margin: 24px 0 0;
+  }
+  .dash{
+    margin: 8px 0 0;
+  }
+  .view-profile{
+    font: 700 14px/1.75 'Open Sans', sans-serif;
+    color: $text-color;
+    @include btn;
+    border: 1px solid $main-color;
+    margin: 19px 0 0;
+    padding: 0 11px;
+    &:active{
+      background: $main-color;
+    }
+  }
+}
+.slider-main {
+  margin: 35px auto 106px;
+  width: 100px;
+  text-align: center;
+}
+  .slider {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid $main-color;
+    background: $main-color;
+  }
+  .slider-none{
+    width: 12px;
+    height: 12px;
+    background: none;
+  }
+
+@media screen and (max-width: 900px) {
+  .card{
+    flex-flow: column wrap;
+    height: 100%;
+  }
+  .card__hr{
+    display: none;
+  }
+  .card__text{
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%;
+  }
+  .card__pic{
+    width: 90%;
+  }
+  .card__btn{
+    order: 1;
+    display: inline;
+  }
+}

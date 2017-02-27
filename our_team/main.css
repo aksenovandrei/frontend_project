@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700|Raleway:400,500|Roboto:900");
+body {
+  margin: 0; }
+
+.header {
+  text-align: center;
+  color: #ffcc00;
+  padding: 105px 0 18px;
+  max-width: 1170px;
+  margin: 0 auto; }
+  .header__subtitle {
+    font: 500 18px/1.3 'Raleway', sans-serif;
+    letter-spacing: 0.02em;
+    margin: 0 0 4px;
+    color: #898f8f; }
+  .header__title {
+    font: 900 60px/1.1 'Roboto', sans-serif;
+    margin: 0 0 32px; }
+  .header__icon {
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 1.2; }
+    .header__icon .ion-bonfire {
+      margin: 0 7px; }
+  .header__icon:before, .header__icon:after {
+    content: '';
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 1.2;
+    display: inline-block;
+    border: 1px #ffcc00;
+    border-style: solid none none none;
+    width: 20%;
+    height: 7px;
+    max-width: 210px;
+    vertical-align: middle; }
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 560px;
+  max-width: 1170px;
+  margin: 0 auto; }
+  .card__btn {
+    width: 3%;
+    font-size: 40px;
+    color: #ffcc00;
+    padding: 0 2%;
+    background: none;
+    outline: none;
+    border: none; }
+    .card__btn:active {
+      color: #ffdb4d; }
+  .card__pic {
+    max-width: 420px;
+    position: relative;
+    font-size: 0;
+    width: 35.75%; }
+    .card__pic div {
+      box-sizing: border-box; }
+  .card .border {
+    height: 24%;
+    width: 24%;
+    position: absolute;
+    border: 1px #ffcc00; }
+  .card .top-left {
+    border-style: solid none none solid; }
+  .card .top-right {
+    border-style: solid solid none none;
+    right: 0; }
+  .card .bottom-right {
+    border-style: none solid solid none;
+    right: 0;
+    bottom: 0; }
+  .card .bottom-left {
+    border-style: none none solid solid;
+    bottom: 0; }
+  .card__photo {
+    margin: 3.87%; }
+    .card__photo img {
+      border: 1px solid #ffcc00;
+      width: 100%;
+      max-width: 388px;
+      box-sizing: border-box; }
+  .card__text {
+    width: 36.06837606837607%;
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 94px 0 0;
+    box-sizing: border-box;
+    text-align: center; }
+  .card__hr {
+    height: 560px;
+    box-sizing: border-box;
+    border: 1px solid #ffcc00;
+    border-right: none;
+    margin: 0 7%; }
+  .card__name {
+    font: 900 36px/.66 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+    color: #666666;
+    margin: 0 auto; }
+    .card__name:after {
+      content: '';
+      display: block;
+      width: 40%;
+      border: 1px solid #ffcc00;
+      border-bottom: none;
+      margin: 36px auto 0; }
+  .card__job {
+    font: 400 24px/1.5 'Raleway', sans-serif;
+    color: #666666;
+    margin: 25px 0 0; }
+  .card .icons {
+    margin: 24px 0 0; }
+  .card .icons_sm {
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 2px solid #cccccc;
+    text-align: center;
+    padding-top: 4px;
+    box-sizing: border-box; }
+    .card .icons_sm .fa, .card .icons_sm .ion-social-googleplus-outline {
+      font-size: 14px;
+      color: #cccccc; }
+  .card__description {
+    font: 500 14px/1.75 'Raleway', sans-serif;
+    color: #333333;
+    text-align: center;
+    margin: 24px 0 0; }
+  .card .dash {
+    margin: 8px 0 0; }
+  .card .view-profile {
+    font: 700 14px/1.75 'Open Sans', sans-serif;
+    color: #666666;
+    background: none;
+    outline: none;
+    border: none;
+    border: 1px solid #ffcc00;
+    margin: 19px 0 0;
+    padding: 0 11px; }
+    .card .view-profile:active {
+      background: #ffcc00; }
+
+.slider-main {
+  margin: 35px auto 106px;
+  width: 100px;
+  text-align: center; }
+
+.slider {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #ffcc00;
+  background: #ffcc00; }
+
+.slider-none {
+  width: 12px;
+  height: 12px;
+  background: none; }
+
+@media screen and (max-width: 900px) {
+  .card {
+    flex-flow: column wrap;
+    height: 100%; }
+
+  .card__hr {
+    display: none; }
+
+  .card__text {
+    padding: 20px 20px;
+    width: 100%;
+    height: 100%; }
+
+  .card__pic {
+    width: 90%; }
+
+  .card__btn {
+    order: 1;
+    display: inline; } }
+
+/*# sourceMappingURL=main.css.map */
