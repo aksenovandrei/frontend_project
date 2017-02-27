@@ -183,7 +183,6 @@ body {
     width: 90%; }
 
   .card__btn {
-    order: 1;
-    display: inline; } }
+    order: 1; } }
 
 /*# sourceMappingURL=main.css.map */
