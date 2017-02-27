@@ -239,5 +239,8 @@ body{
     padding: 0;
     margin: 0 30px;
   }
+  .card__name:after{
+    width: 90%;
+  }
 
 }
