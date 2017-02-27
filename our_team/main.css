@@ -168,7 +168,7 @@ body {
 
 @media screen and (max-width: 900px) {
   .card {
-    flex-flow: column wrap;
+    flex-flow: row wrap;
     height: 100%; }
 
   .card__hr {
