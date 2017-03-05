@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,400,700|Raleway:700');
+
+body {
+  font: 400 22px/1.36 'Lato', Arial, sans-serif;
+  color: #fffefe;
+}
+.container {
+  max-width: 1500px;
+  padding: 0 11%;
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+}
+.header {
+  background: #02496a url("img/bg.png") 50% no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 50px;
+  &__logo {
+    float: left;
+  }
+}
+  .nav {
+    float: right;
+    font-size: 0;
+    margin-top: 7px;
+    padding: 0;
+    &:first-child{
+      margin-left: 0;
+    }
+    &_item {
+      display: inline-block;
+      font-size: 14px;
+      margin-left: 50px;
+      &:hover{
+        text-decoration: underline;
+      }
+      a {
+        text-decoration: none;
+        color: #fffefe;
+      }
+    }
+  }
+  .clearfix{
+    clear: both;
+  }
+  .title{
+    text-transform: uppercase;
+    margin-top: 10%;
+    font-size: 48px;
+    font-family: 'Raleway', sans-serif;
+    &:after{
+      content: '';
+      width: 100px;
+      border: 1px solid #fffefe;
+      display: block;
+      box-sizing: border-box;
+      margin: 50px auto;
+    }
+  }
+  .subtitle{
+    margin-bottom: 10%;
+    font: 400 22px/1.36 'Lato', Arial, sans-serif;
+    letter-spacing: 0.05em;
+  }
+  .scroll{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 44px;
+  }
+.section__name{
+  text-transform: uppercase;
+  font: 35px/1.7 'Raleway', Arial, sans-serif;
+  color: #222222;
+  margin-top: 100px;
+  &:after{
+    content: '';
+    width: 100px;
+    border: 1px solid #222;
+    display: block;
+    box-sizing: border-box;
+    margin: 70px auto;
+  }
+}
+.row{
+  font-size: 0;
+}
+  .column{
+    //display: inline-block;
+    float: left;
+    width: 30%;
+    height: 322px;
+    color: #222222;
+    margin-right: 5%;
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+  .column_title{
+    font: 700 25px/1.36 'Lato', Arial, sans-serif;
+  }
+  .column_text{
+    font: 400 16px/1.36 'Lato', Arial, sans-serif;
+  }
+
+.dolore{
+  background: #262626 url("img/bg-phone.png") 50% no-repeat;
+  background-size: cover;
+  text-align: left;
+  font-family:  'Lato', Arial, sans-serif;
+  &__content{
+    width: 70%;
+  }
+  &__title{
+    font-size: 45px;
+    text-transform: uppercase;
+    padding-top: 165px;
+    margin-top: 0;
+  }
+  &__subtitle{
+    margin-bottom: 68px;
+    font-size: 22px;
+  }
+  &__link{
+    font-size: 22px;
+    color: #fff;
+  }
+}
+.photos {
+  font-size: 0;
+  margin-bottom: 30px;
+  &__pic {
+    display: inline-block;
+    width: 30%;
+    max-width: 370px;
+    margin-right: 5%;
+    position: relative;
+    img {
+      width: 100%;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+.our-work{
+  width: 30%;
+  box-sizing: border-box;
+  background: none;
+  outline: none;
+  color: #222222;
+  border: 2px solid #222222;
+  padding: 10px;
+  &:hover{
+    color: #fff;
+    background: #222;
+  }
+}
+
+.footer{
+  background: #262626 url("img/bg-footer.png") 50% no-repeat;
+  background-size: cover;
+}
+  .section__name-color{
+    color: #fff;
+    &:after{
+      content: '';
+      width: 100px;
+      border: 1px solid #fff;
+      display: block;
+      box-sizing: border-box;
+      margin: 70px auto;
+    }
+  }
