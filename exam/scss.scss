@@ -12,7 +12,7 @@ body {
   height: 100vh;
 
 }
-//header start
+/* header start */
 .header {
   background: #02496a url("img/bg.png") 50% no-repeat;
   background-size: cover;
@@ -44,7 +44,7 @@ body {
     letter-spacing: 0.05em;
   }
 }
-//menu nav
+/* menu nav */
 .nav {
   float: right;
   font-size: 0;
@@ -78,11 +78,11 @@ body {
     transition: all .1s ease-in;
   }
 }
-//header end
+/* header end */
 
-//main start
+/* main start */
 
-//our-services start
+/* our-services start */
 .section__name{
   text-transform: uppercase;
   font: 35px/1.7 'Raleway', Arial, sans-serif;
@@ -120,9 +120,9 @@ body {
 .column_text {
   font: 400 16px/1.36 'Lato', Arial, sans-serif;
 }
-//our-services end
+/* our-services end */
 
-//about start
+/*a bout start */
 .about{
   background: #262626 url("img/bg-phone.png") 50% no-repeat;
   background-size: cover;
@@ -150,9 +150,9 @@ body {
     }
   }
 }
-//about end
+/* about end */
 
-//our-work start
+/* our-work start */
 
 .photos {
   font-size: 0;
@@ -207,9 +207,9 @@ body {
     }
   }
 }
-//our-work end
+/* our-work end */
 
-//footer start
+/* footer start */
 
 .footer {
   background: #262626 url("img/bg-footer.png") 50% no-repeat;
@@ -293,5 +293,5 @@ body {
     }
   }
 }
-//footer end
+/* footer end */
 
