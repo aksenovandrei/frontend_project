@@ -24,9 +24,10 @@ p{
     max-width: 640px;
 }
 .header{
-    background: #aeb8cd url("img/hero-bg.jpg") 50% no-repeat;
+    /*background: #aeb8cd url("img/hero-bg.jpg") 50% no-repeat;*/
     background-size: cover;
-    color: #ffffff;
+    color: #f0f;
+    /*color: #ffffff;*/
     padding: 284px 0 384px;
     text-align: center;
     min-height: 100vh;
